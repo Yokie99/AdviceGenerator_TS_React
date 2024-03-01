@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.dark-blue-background {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.centered-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+}
+
+.middle {
+  max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neonGreen {
+  color: hsl(150, 100%, 66%);
+}
+
+.grayTxt {
+  color: hsl(193, 38%, 86%);
+}
+
+.glow {
+  transition: box-shadow 0.2s; /* Add transition for smooth effect */
+}
+
+.glow:hover {
+  box-shadow: 0 0 20px 10px rgba(41, 183, 86, 0.5); /* Add a blue glow on hover */
+}
