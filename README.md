@@ -15,5 +15,5 @@ Must use all assets given
 You can use bootstrap or tailwind
 Goal is to recreate this challenge as close to the design as possible and having it function properly.
 
-Reviewer: 
-Peer review:
+Reviewer: Brandon Nguyen 3/1/2024 @ 3:08pm
+Peer review: The site is responsive and the fetch works. The only nitpick is that for the font size of the quote the style guide says that it should be 28px. Other than that good job!!
